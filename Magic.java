@@ -32,7 +32,7 @@ public class Magic extends Application {
 		slider.setShowTickMarks(true);
 		slider.setShowTickLabels(true);
 		slider.setOnMouseDragged(event-> buttonPressed());
-		//slider.setOnClicked(event-> buttonPressed());
+		slider.setOnClicked(event-> buttonPressed());
 		
 		// choice box
 		choiceBox = new ChoiceBox<>();
