@@ -1,2 +1,4 @@
-# test01
-It's test.
+# How to work  
+javac Magic.java
+java Magic
+This is typing it on the cmd
